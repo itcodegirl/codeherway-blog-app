@@ -11,8 +11,8 @@ function Home() {
 			video.loop = true;
 			video.controls = false;
 			video.muted = true;
-			video.height = 240;
-			video.width = 320;
+			video.height = 340;
+			video.width = 420;
 			box.appendChild(video);
 		}
 	}, []);
@@ -20,8 +20,8 @@ function Home() {
 	return (
 		<section id="home" className="p-5 text-center bg-light">
 			<div className="container">
-				<h1 className="display-4">Welcome to CodeHerWay</h1>
 				<div id="box"></div>
+				<h1 className="display-4">Welcome to CodeHerWay</h1>
 				<p className="lead">A blog for web development enthusiasts, featuring tutorials, insights, and personal stories.</p>
 				<a href="#blog" className="btn btn-primary btn-lg">Check Out My Latest Posts</a>
 			</div>
