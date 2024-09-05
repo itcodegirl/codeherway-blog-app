@@ -2,7 +2,7 @@ import React from 'react';
 
 function AboutMePage() {
 	return (
-		<section id="about" className="">
+		<section id="about" className="p-5 bg-dark text-light">
 			<div className="container">
 				<h2>About Me</h2>
 				<p>I’m a passionate web developer with a love for creating beautiful, responsive websites. My journey began with learning HTML and CSS, and now I’m fully immersed in JavaScript frameworks like React.</p>
