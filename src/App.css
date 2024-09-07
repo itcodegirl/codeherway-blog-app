@@ -29,16 +29,12 @@
 }
 
 #container1 {
-  background-image: url(/src/Images/Image_Logos/website\ banner-1.jpg);
+  background-image: url(/src/Images/website\ banner-2.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   color: white;
-  text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    3px 3px 0 #000;
+
 }
 
 @keyframes App-logo-spin {
@@ -49,4 +45,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.display-4 {
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+  font-family: Verdana,
+    sans-serif;
+  color: white;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    3px 3px 0 #000;
 }
