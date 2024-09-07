@@ -37,8 +37,6 @@ function Home() {
 							<p className="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.</p>
 						</div>
 						<div className="col-lg-6">
-							{/* Avatar image, ensure it's in the public folder */}
-							<img src="/Images/Image_Avatars/avatar1.png" alt="avatar" className="img-fluid rounded-circle" />
 						</div>
 					</div>
 				</div>
