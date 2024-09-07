@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../Images/Image_Logos/codeherway-logo-head.png';
+import logo from '../Images/codeherway-logo-head.png';
 
 function Header() {
 	return (
