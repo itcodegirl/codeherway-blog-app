@@ -7,6 +7,8 @@ import AboutMe from './components/AboutMe';
 import Blog from './components/Blog';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
 	return (
